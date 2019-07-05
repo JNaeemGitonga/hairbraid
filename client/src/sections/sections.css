@@ -1,0 +1,51 @@
+/* 
+    use to seperate the CSS from app.css
+*/
+.purpose {
+    float: left;
+    margin-top: 100px;
+    width: 50%;
+}
+
+.purpose h1, .purpose p {
+    color: #363333;
+    text-align: center !important;
+    margin: 0 15px;
+    
+}
+
+.purpose h1 {
+    font-weight: 800;
+}
+
+.content-1 {
+    float: right;
+    width: 50%;
+}
+
+.container {
+    overflow: hidden;
+    padding: 25px 55px 25px 35px;
+}
+
+@media only screen and (max-width: 695px) {
+    .purpose {
+        margin-top: 35px;
+    }
+    .container * {
+        display: block;
+        float: unset;
+        text-align: left;
+        width: 100%;
+        
+    }
+    
+    .container {
+        padding-left: 55px !important;
+    }
+
+    .purpose h1, .purpose p {
+        margin: 0;
+        
+    }
+}

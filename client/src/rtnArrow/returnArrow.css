@@ -1,0 +1,30 @@
+.arrow-box {
+    position:fixed;
+    z-index: 40;
+    right:20px;
+    bottom:50px;
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    border: 2px solid #363333;
+    text-align:center;
+}
+
+.arrow-box:hover {
+    background-color: #363333;
+    border:2px solid white;
+    transition:.5s;
+    cursor:pointer;
+}
+
+.arrow-box:hover .fas {
+    color:white;
+    transition:.5s;
+}
+
+div>.up-arrow-link {
+    position:relative;
+    top:1px;
+    text-decoration:none;
+    vertical-align:middle;
+}

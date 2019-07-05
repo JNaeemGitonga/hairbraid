@@ -1,0 +1,403 @@
+body {
+    margin: 0 auto;
+    position: absolute;
+}
+
+.App {
+    width: 100vw;
+}
+
+.shadow,
+.shadow-1 {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.3) 100%
+    );
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+.header-wrap {
+    float: left;
+    position: relative;
+    top: 260px;
+    left: 37px;
+    margin-left: 113px;
+}
+
+.header {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: 1000;
+    letter-spacing: 9px;
+}
+
+.header:hover {
+    cursor: pointer;
+    color: #ffffff8f;
+    transition: 0.3s;
+}
+
+.slogan {
+    margin: 0;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 725px) {
+    .header-wrap {
+        margin: 0;
+        top: 310px;
+        left: 22px;
+    }
+
+    .header {
+        font-size: 1.5rem;
+    }
+
+    .slogan {
+        font-size: 0.75rem;
+    }
+}
+
+.container,
+.container-two {
+    min-height: 400px;
+}
+
+.container-two {
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+}
+
+
+
+.subject {
+    float: left;
+    width: 36%;
+    text-align: center;
+}
+
+.content {
+    float: right;
+    width: 56%;
+}
+
+.content-1 {
+    margin-top: 25px;
+}
+@media only screen and (max-width: 695px) {
+    
+
+    .subject {
+        width: 100%;
+    }
+
+    .content {
+        margin-top: 75px;
+        width: 100%;
+    }
+
+    .content-1 {
+        margin-top: 40px;
+        width: 100%;
+    }
+}
+
+.project-stack {
+    padding: 0;
+}
+
+.project-stack > li {
+    margin-bottom: 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.project-stack > li > a > img {
+    position: relative;
+}
+
+.backgrounda {
+    height: 400px;
+    background: url('./pix/techpic1.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+.backgroundb {
+    height: 400px;
+    background: url('./pix/screen.png') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.backgroundc {
+    height: 400px;
+    background: url(http://iloveblackpeople.net/wp-content/uploads/2016/05/n-RESEARCH-COMPUTER-628x314.jpg)
+        no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    margin-top: 110px;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.box-blue {
+    width: 320px;
+    position: absolute;
+    left: 19%;
+    text-align: left;
+}
+
+.react {
+    background-image: url('./pix/react.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.docker {
+    background-image: url('./pix/docker.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.css3 {
+    background-image: url('./pix/css3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ps {
+    background-image: url('./pix/ps.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.redux {
+    background-image: url('./pix/redux.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.python {
+    background-image: url('./pix/python.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logos {
+    height: 40px;
+    width: 40px;
+    margin: 10px 5px;
+}
+
+.html5 {
+    background-image: url('./pix/html5.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.angular {
+    background-image: url('./pix/angular.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sass {
+    background-image: url('./pix/sass.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.chai {
+    background-image: url('./pix/chai.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mocha {
+    background-image: url('./pix/mocha.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mysql {
+    background-image: url('./pix/mysql.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.postgres {
+    background-image: url('./pix/postgresql.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.javascript {
+    background-image: url('./pix/javascript.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.express {
+    background-image: url('./pix/expressjslogo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.atlasian {
+    background-image: url('./pix/atlssian.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mongo {
+    background-image: url('./pix/Mongo2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.git {
+    background-image: url('./pix/git-logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.node {
+    background-image: url('./pix/nodelogo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-red {
+    width: 320px;
+    position: absolute;
+    right: 19%;
+    text-align: left;
+}
+
+.container-two > h2 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 725px) {
+    .backgrounda,
+    .backgroundb,
+    .backgroundc {
+        background-size: cover;
+        background-attachment: initial;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        display: inline-block;
+        background-color: initial;
+        max-height: 250px;
+    }
+
+    .shadow {
+        display: none;
+    }
+
+    .aos {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .box-blue,
+    .box-red {
+        min-width: 250px;
+        position: static;
+        display: inline-block;
+        width: 75%;
+        margin: 20px auto;
+    }
+
+    .container-two {
+        height: unset;
+        padding: 50px 20px 50px 20px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .box-blue,
+    .box-red {
+        width: 75%;
+        width: 320px;
+        height: 300px;
+        position: absolute;
+        text-align: left;
+    }
+    /* 
+    .box-blue {
+        left: 900px;
+    }
+    .box-red {
+        right: 900px;
+    } */
+}
+@media only screen and (min-width: 1600px) {
+    .box-blue,
+    .box-red {
+        width: 75%;
+        width: 320px;
+        height: 300px;
+        position: absolute;
+        text-align: left;
+    }
+    /* 
+    .box-blue {
+        left: 900px;
+    }
+    .box-red {
+        right: 900px;
+    } */
+}
+
+@media only screen and (min-width: 2000px) {
+    .box-blue {
+        left: 900px;
+    }
+    .box-red {
+        right: 900px;
+    }
+}
+
+.first {
+    min-height: 275px;
+}
