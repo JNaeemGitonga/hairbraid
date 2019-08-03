@@ -8,10 +8,7 @@ const Head = props => (
         <header className="backgrounda">
             <div className="shadow-1">
                 <div className="header-wrap">
-                    <h1 className="header">GTNG™</h1>
-                    <p className="slogan">
-                        <em>boundless</em>
-                    </p>
+                    <h1 className="header">HERBRAIDQUEEN</h1>
                 </div>
             </div>
         </header>

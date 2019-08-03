@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ln from './ln.png';
 import ig from './ig.png';
+import fb from './fb.png';
 import './footer.css';
 import GTNGPartner from '../partnerForm/gtngPartner';
 import request from 'superagent';
@@ -54,17 +54,17 @@ export default class Footer extends Component {
                     <section className="section-1">
                         <div className="footer-container a">
                             <h6>MISSION </h6>
-                            <p>Build mobile and web apps, better than today's!</p>
+                            <p>Good hair is healthy hair!</p>
                         </div>
                         <div className="footer-container b">
-                            <a
-                                onClick={() => {
-                                    this.setState({ iframe: iframe });
-                                    this.modalDisplay();
-                                }}
-                            >
-                                <h6 className="careers">CAREERS</h6>
-                            </a>
+                            <h6>CONTACT US</h6>
+                            <div className="two">
+                                <a href="mailto:planavents@gmail.com">
+                                    <p>planavents@gmail.com</p>
+                                </a>
+                                <p>680 Murphy Ave. Suite 4132, Atlanta, GA 30310</p>
+                                <p><a href="tel:1-404-405-5065">404-405-5065</a></p>
+                            </div>
                         </div>
                     </section>
                     <section className="section-2">
@@ -74,37 +74,27 @@ export default class Footer extends Component {
                             <ul className="social-1">
                                 <li className="social ">
                                     <div className="pic-wrap">
-                                        <a href="https://www.linkedin.com/company/gtng/">
+                                        <a href="https://www.facebook.com/naturalzsalon/">
                                             <img
-                                                className="logo"
-                                                src={ln}
-                                                alt="Black Tech meetup"
+                                                className="logo fb-logo"
+                                                src={fb}
+                                                alt="facebook logo"
                                             />
                                         </a>
                                     </div>
                                 </li>
                                 <li className="social ">
                                     <div className="pic-wrap">
-                                        <a href="https://www.instagram.com/gtng_tech/">
+                                        <a href="https://www.instagram.com/herbraidqueen/">
                                             <img
                                                 className="logo"
                                                 src={ig}
-                                                alt="State of Black Tech meetup"
+                                                alt="instagram logo"
                                             />
                                         </a>
                                     </div>
                                 </li>
                             </ul>
-                        </div>
-                        <div className="footer-container b">
-                            <h6>CONTACT US</h6>
-                            <div className="two">
-                                <a href="mailto:info@gtng.tech">
-                                    <p>info@gtng.tech</p>
-                                </a>
-                                <p>165 Courtland St, Suite A-224, Atlanta, GA 30303</p>
-                                <p><a href="tel:1-404-670-0059">404-670-0059</a></p>
-                            </div>
                         </div>
                     </section>
                 </div>

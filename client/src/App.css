@@ -129,12 +129,11 @@ body {
 
 .backgrounda {
     height: 400px;
-    background: url('./pix/techpic1.jpg') no-repeat center fixed;
+    background: url('https://user-images.githubusercontent.com/26694930/60693374-0eb5ca80-9ea8-11e9-82af-962c83cc146a.png') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     background-attachment: fixed;
     position: relative;
     overflow: hidden;
@@ -154,7 +153,7 @@ body {
 
 .backgroundc {
     height: 400px;
-    background: url(http://iloveblackpeople.net/wp-content/uploads/2016/05/n-RESEARCH-COMPUTER-628x314.jpg)
+    background: url('https://user-images.githubusercontent.com/26694930/60693374-0eb5ca80-9ea8-11e9-82af-962c83cc146a.png')
         no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;

@@ -68,6 +68,10 @@ a {
     width:auto;
 }
 
+.fb-logo {
+    height: 88%;
+}
+
 .two {
     text-align:left;
 }
@@ -83,10 +87,11 @@ h6 {
     color:#454141fb;
 }
 
-.section-1>.footer-container.b {
+/* * commented so that without a section-2.footer-container.b we have centered content/text*/
+/* .section-1>.footer-container.b {
     margin-right: 175px;
 
-}
+} */
 
 .two {
     width:250px
