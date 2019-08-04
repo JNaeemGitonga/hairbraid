@@ -400,3 +400,7 @@ a {
 .first {
     min-height: 275px;
 }
+
+.display {
+    display: none;
+}

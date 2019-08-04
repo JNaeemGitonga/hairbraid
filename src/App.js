@@ -11,6 +11,7 @@ import {
     ShadowSectionTwo,
 } from './sections';
 import ReturnArrow from './rtnArrow/returnArrow';
+import Maintenence from './Maintenance';
 
 class App extends Component {
     componentDidMount() {
@@ -23,13 +24,17 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <ReturnArrow />
-                <Head />
-                <ShadowSectionOne />
-                <SectionTwo />
-                <ShadowSectionTwo />
-                <AppsSection />
-                <Footer />
+                <Maintenence/>
+                <div className="display">
+                    <ReturnArrow />
+                    <Head />
+                    <ShadowSectionOne />
+                    <SectionTwo />
+                    <ShadowSectionTwo />
+                    <AppsSection />
+                    <Footer />
+                </div>
+                
             </div>
         );
     }
