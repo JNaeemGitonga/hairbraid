@@ -24,16 +24,13 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <Maintenence/>
-                <div className="display">
-                    <ReturnArrow />
-                    <Head />
-                    <ShadowSectionOne />
-                    <SectionTwo />
-                    <ShadowSectionTwo />
-                    <AppsSection />
-                    <Footer />
-                </div>
+                <ReturnArrow />
+                <Head />
+                <ShadowSectionOne />
+                <SectionTwo />
+                <ShadowSectionTwo />
+                <AppsSection />
+                <Footer />
                 
             </div>
         );
