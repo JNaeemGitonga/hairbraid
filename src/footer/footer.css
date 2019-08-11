@@ -12,6 +12,7 @@
 .btm-line {
     margin:auto;
     margin-top:10px;
+    margin-bottom: 0;
     height:50px;
     width:90%;
     text-align:center;
@@ -122,4 +123,14 @@ footer {
         float:unset;
         clear:unset;
     }
-} 
+}
+
+.builder {
+    font-size: 10px;
+    margin-top: -15px;
+}
+
+.builderAnchor {
+    text-decoration: none;
+}
+

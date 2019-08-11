@@ -54,13 +54,13 @@ export default class Footer extends Component {
                     <section className="section-1">
                         <div className="footer-container a">
                             <h6>MISSION </h6>
-                            <p>Good hair is healthy hair!</p>
+                            <p>Give feed and share light with your hair. It’s your crown so wear it best Queen.</p>
                         </div>
                         <div className="footer-container b">
                             <h6>CONTACT US</h6>
                             <div className="two">
-                                <a href="mailto:planavents@gmail.com">
-                                    <p>planavents@gmail.com</p>
+                                <a href="mailto:herbraidqueen@gmail.com">
+                                    <p>herbraidqueen@gmail.com</p>
                                 </a>
                                 <p>680 Murphy Ave. Suite 4132, Atlanta, GA 30310</p>
                                 <p><a href="tel:1-404-405-5065">404-405-5065</a></p>
@@ -100,8 +100,9 @@ export default class Footer extends Component {
                 </div>
                 <div className="btm-line">
                     <p className="btm-line-text">
-                        © {moment().format('YYYY')} GTNG™
+                        © {moment().format('YYYY')} HERBRAIDQUEEN
                     </p>
+                    <a className="builder-anchor" href="http://gtng.tech"><p className="btm-line-text builder">by GTNG™</p></a>
                 </div>
                 <GTNGPartner
                     display={this.state.display}

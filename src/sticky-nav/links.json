@@ -1,6 +1,6 @@
 [
     {
-        "name": "Home",
+        "name": "Main",
         "container-id": "first",
         "link-id": "first-link",
         "class": "link",
@@ -12,7 +12,7 @@
         "class": "link",
         "href": "/"
     },{
-        "name": "Our Work",
+        "name": "Styles",
         "container-id": "apps",
         "link-id": "apps-link",
         "class": "link",
