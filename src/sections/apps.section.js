@@ -1,20 +1,19 @@
 import React from 'react';
 import projects from './data/projects.json';
 
-const AppsSection = () => (
+const StylesSection = () => (
     <div id="apps" className="container apps">
         <div className="subject">
-            <h5>APPS</h5>
+            <h5>STYLES</h5>
         </div>
         <div className="content">
             <p>
-                These are some of the recent apps and websites we
-                have engineered:
+                Styles include but not limited too:
             </p>
             <ul>
                 { projects.map((project, i) => (
                     <li key={i}>
-                        <a  href={ project.link }>{ project.name }</a>
+                        <span>{ project.name }</span>
                     </li>
                 ))}
             </ul>
@@ -22,4 +21,4 @@ const AppsSection = () => (
     </div>
 );
 
-export default AppsSection;
+export default StylesSection;

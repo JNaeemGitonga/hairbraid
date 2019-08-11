@@ -6,7 +6,7 @@ import Footer from './footer/footer';
 import { 
     Head,
     SectionTwo,
-    AppsSection,
+    StylesSection,
     ShadowSectionOne,
     ShadowSectionTwo,
 } from './sections';
@@ -29,7 +29,7 @@ class App extends Component {
                 <ShadowSectionOne />
                 <SectionTwo />
                 <ShadowSectionTwo />
-                <AppsSection />
+                <StylesSection />
                 <Footer />
                 
             </div>

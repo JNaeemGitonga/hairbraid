@@ -1,17 +1,47 @@
 [
     {
-        "name": "Connex App",
-        "link": "http://www.connexapp.com",
+        "name": "Crochet",
+        "link": "",
         "thumbnail":""
     },
     {
-        "name": "Ninety.io",
-        "link": "https://ninety.io",
+        "name": "Micro link extensions ",
+        "link": "",
         "thumbnail":""
     },
     {
-        "name": "Gabrielle Zalina",
-        "link": "https://gabriellezalina.herokuapp.com",
+        "name": "Passion twists",
+        "link": "",
+        "thumbnail":""
+    },
+    {
+        "name": "Senegelese twist",
+        "link": "",
+        "thumbnail":""
+    },
+    {
+        "name": "Knotless Braids",
+        "link": "",
+        "thumbnail":""
+    },
+    {
+        "name": "Box Braids",
+        "link": "",
+        "thumbnail":""
+    },
+    {
+        "name": "Cornrows",
+        "link": "",
+        "thumbnail":""
+    },
+    {
+        "name": "Feed in/ Stitch Braids",
+        "link": "",
+        "thumbnail":""
+    },
+    {
+        "name": "Marley/ Havana Twists",
+        "link": "",
         "thumbnail":""
     }
 ]
