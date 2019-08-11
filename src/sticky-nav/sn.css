@@ -25,8 +25,8 @@
 }
 
 #navbar a.active {
-    background-color: rgb(62, 64, 62);
-    color: white;
+    background-color: white;
+    color: rgb(62, 64, 62);
 }
 
 .sticky {
