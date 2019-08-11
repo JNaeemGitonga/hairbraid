@@ -48,6 +48,21 @@ const tutorialSteps = [
     imgPath:
       'https://user-images.githubusercontent.com/26694930/62828727-3ab91f80-bbbb-11e9-9925-53c245ff45cd.JPEG',
   },
+  {
+    label: 'zit',
+    imgPath:
+      'https://user-images.githubusercontent.com/26694930/62828957-b4074100-bbc0-11e9-8219-8138650c84a9.JPEG',
+  },
+  {
+    label: 'braids',
+    imgPath:
+      'https://user-images.githubusercontent.com/26694930/62828967-d7ca8700-bbc0-11e9-94dc-0409b4af4e8d.JPEG',
+  },
+  {
+    label: 'braids',
+    imgPath:
+      'https://user-images.githubusercontent.com/26694930/62828972-f29cfb80-bbc0-11e9-84c3-61937a8998b7.JPEG',
+  },
 ];
 
 const styles = theme => ({
