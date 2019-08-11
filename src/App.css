@@ -129,7 +129,7 @@ body {
 
 .backgrounda {
     height: 400px;
-    background: url('https://user-images.githubusercontent.com/26694930/60693374-0eb5ca80-9ea8-11e9-82af-962c83cc146a.png') no-repeat center fixed;
+    background: url('https://user-images.githubusercontent.com/26694930/62828826-545b6680-bbbd-11e9-9af7-f4067364865a.JPEG') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -140,7 +140,7 @@ body {
 }
 .backgroundb {
     height: 400px;
-    background: url('./pix/screen.png') no-repeat center fixed;
+    background: url('https://user-images.githubusercontent.com/26694930/62828803-c1bac780-bbbc-11e9-8183-a0466052ebe6.JPEG') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -153,7 +153,7 @@ body {
 
 .backgroundc {
     height: 400px;
-    background: url('https://user-images.githubusercontent.com/26694930/60693374-0eb5ca80-9ea8-11e9-82af-962c83cc146a.png')
+    background: url('https://user-images.githubusercontent.com/26694930/62828699-c2eaf500-bbba-11e9-93a6-cb052dcbd627.JPEG')
         no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;

@@ -11,27 +11,42 @@ const tutorialSteps = [
   {
     label: 'braider 1',
     imgPath:
-      'https://user-images.githubusercontent.com/26694930/60693845-cd261f00-9ea9-11e9-98af-19703f946bdb.JPG',
+      'https://user-images.githubusercontent.com/26694930/62828649-a0a4a780-bbb9-11e9-8a73-0bef96f27fc6.JPEG',
   },
   {
-    label: 'style 2',
+    label: 'not wuite right',
     imgPath:
-      'https://user-images.githubusercontent.com/26694930/60693873-e929c080-9ea9-11e9-8a66-03f70d64057e.JPG',
+      'https://user-images.githubusercontent.com/26694930/62828691-87e8c180-bbba-11e9-85dd-2749e9becf9e.jpg',
   },
   {
     label: 'style 3',
     imgPath:
-      'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250&q=80',
+      'https://user-images.githubusercontent.com/26694930/62828636-54596780-bbb9-11e9-82e6-0d346b47c007.JPEG',
   },
   {
     label: 'style 4',
     imgPath:
-      'https://user-images.githubusercontent.com/26694930/60693902-10808d80-9eaa-11e9-954d-1a7b4e3ffffd.JPG',
+      'https://user-images.githubusercontent.com/26694930/62828702-ce3e2080-bbba-11e9-9300-273e5a58e626.jpg',
   },
   {
     label: 'style 5',
     imgPath:
-      'https://user-images.githubusercontent.com/26694930/60693927-2f7f1f80-9eaa-11e9-9436-b9c07b959efe.JPG',
+      'https://user-images.githubusercontent.com/26694930/62828706-e4e47780-bbba-11e9-8b23-ecf913fb557a.jpg',
+  },
+  {
+    label: 'style 6',
+    imgPath:
+      'https://user-images.githubusercontent.com/26694930/62828712-07769080-bbbb-11e9-9970-f44e18fa109f.jpg',
+  },
+  {
+    label: 'style 7',
+    imgPath:
+      'https://user-images.githubusercontent.com/26694930/62828716-1e1ce780-bbbb-11e9-8585-a803edb4f76f.jpg',
+  },
+  {
+    label: 'style 8',
+    imgPath:
+      'https://user-images.githubusercontent.com/26694930/62828727-3ab91f80-bbbb-11e9-9925-53c245ff45cd.JPEG',
   },
 ];
 
@@ -84,9 +99,9 @@ class SwipeableTextMobileStepper extends React.Component {
 
     return (
       <div className={ `${ classes.root } ${ componentStyles.wrap }` }>
-        <mUi.Paper square elevation={0} className={classes.header}>
+        {/* <mUi.Paper square elevation={0} className={classes.header}> //* maybe we want this in the future, maybe not
           <mUi.Typography>{tutorialSteps[activeStep].label}</mUi.Typography>
-        </mUi.Paper>
+        </mUi.Paper> */}
         <AutoPlaySwipeableViews
           axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
           index={activeStep}
